@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>868</width>
+    <height>307</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>851</width>
+      <height>288</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="6" column="1">
+      <widget class="QPushButton" name="pb_f_area">
+       <property name="text">
+        <string>Buscar Área</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QPushButton" name="pb_close">
+       <property name="text">
+        <string>Cerrar</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QPushButton" name="pb_l_area">
+       <property name="text">
+        <string>Cargar Área</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QSpinBox" name="sp_cam_idx"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QCheckBox" name="cb_object">
+       <property name="text">
+        <string>Detección de Objetos</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="pb_open">
+       <property name="text">
+        <string>Abrir</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="pb_find">
+       <property name="text">
+        <string>Buscar Video</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QRadioButton" name="rb_camera">
+       <property name="text">
+        <string>Cámara</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="0">
+      <widget class="QPushButton" name="pb_quit">
+       <property name="text">
+        <string>Salir</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QCheckBox" name="cb_motion">
+       <property name="text">
+        <string>Detección de Movimiento</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QPushButton" name="pb_play">
+       <property name="text">
+        <string>Reproducir/Pausar Video</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QRadioButton" name="rb_video">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="text">
+        <string>Video</string>
+       </property>
+       <property name="checked">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="3">
+      <widget class="QLineEdit" name="le_c_area"/>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLineEdit" name="le_stream"/>
+     </item>
+     <item row="7" column="1">
+      <widget class="QPushButton" name="pb_c_area">
+       <property name="text">
+        <string>Crear/Guardar Área</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="3">
+      <widget class="QLineEdit" name="le_f_area"/>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLineEdit" name="le_video"/>
+     </item>
+     <item row="0" column="4">
+      <widget class="QComboBox" name="il_camera"/>
+     </item>
+     <item row="7" column="4">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>.txt</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
